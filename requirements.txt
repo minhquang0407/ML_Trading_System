@@ -1,0 +1,5 @@
+numpy>=1.24.0        # Lõi đại số tuyến tính (Ma trận, Vector)
+pandas>=2.0.0        # Xử lý chuỗi thời gian (Time-series)
+yfinance>=0.2.20     # Kéo dữ liệu chứng khoán/crypto từ Yahoo Finance
+matplotlib>=3.7.0    # Vẽ biểu đồ hội tụ, phân phối xác suất
+jupyter>=1.0.0       # Chạy file notebooks
