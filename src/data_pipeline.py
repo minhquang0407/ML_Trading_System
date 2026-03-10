@@ -5,6 +5,7 @@ import pandas as pd
 class FinancialDataPipeline:
         def __init__(self):
             pass
+
         def fetch_data(self, ticker, start_date, end_date):
             try:
                 data = yf.download(
@@ -112,4 +113,3 @@ if __name__ == "__main__":
 
     print(Phi_train.shape)
     print(T_train.shape)
-
